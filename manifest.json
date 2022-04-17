@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Items",
+  "version": "0.1",
+
+  "description": "Adjusts the Height of the YouTube Items",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.youtube.com/watch?*",
+        "https://www.youtube.com/watch?*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
