@@ -1,9 +1,10 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "YouTube Items",
   "version": "0.1",
-
   "description": "Adjusts the Height of the YouTube Items",
+  "permissions": ["activeTab"],
+
   "content_scripts": [
     {
       "matches": [
